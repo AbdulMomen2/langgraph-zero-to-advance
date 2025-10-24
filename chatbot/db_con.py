@@ -19,6 +19,7 @@ from langgraph.graph import StateGraph, MessagesState, START
 from langgraph.checkpoint.postgres import PostgresSaver
 from langgraph.store.postgres import PostgresStore
 from langgraph.store.base import BaseStore
+import uuid
 # Load environment variables
 load_dotenv()
 
@@ -41,8 +42,8 @@ with (
     PostgresStore.from_conn_string(DB_URI) as store,
     PostgresSaver.from_conn_string(DB_URI) as checkpointer,
 ):
-    # store.setup()
-    # checkpointer.setup()
+    store.setup()
+    checkpointer.setup()
 
     def call_model(
         state: MessagesState,

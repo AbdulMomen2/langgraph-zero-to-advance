@@ -6,6 +6,13 @@ from langgraph.checkpoint.memory import InMemorySaver
 from langchain_core.messages import BaseMessage
 from langgraph.graph.message import add_messages
 from langchain_groq import ChatGroq
+from langgraph.checkpoint.postgres import PostgresSaver
+
+# DB_URI = "postgresql://postgres:postgres@localhost:5442/postgres?sslmode=disable"
+# with PostgresSaver.from_conn_string(DB_URI) as checkpointer:
+#     builder = StateGraph(...)
+#     graph = builder.compile(checkpointer=checkpointer)
+
 
 load_dotenv()
 

@@ -4,6 +4,7 @@ from langchain_core.messages import HumanMessage, AIMessage
 import uuid
 
 
+
 ################Utility##############
 def generate_thread_id():
     return str(uuid.uuid4())
@@ -20,7 +21,7 @@ def reset_chat():
     add_thread(thread_id)
     st.session_state['message_history'] = []
     # ✅ set placeholder title
-    st.session_state['thread_titles'][thread_id] = "🆕 Started new conversation"
+    st.session_state['thread_titles'][thread_id] = "Started new conversation"
 
 def load_conversation(thread_id):
     state = chatbot.get_state(config={'configurable': {'thread_id': thread_id}})
@@ -43,7 +44,7 @@ if 'thread_titles' not in st.session_state:
 # Ensure current thread exists and has placeholder title
 add_thread(st.session_state['thread_id'])
 if st.session_state['thread_id'] not in st.session_state['thread_titles']:
-    st.session_state['thread_titles'][st.session_state['thread_id']] = "🆕 Started new conversation"
+    st.session_state['thread_titles'][st.session_state['thread_id']] = "Started new conversation"
 
 
 # ----------- Sidebar UI ----------- #
@@ -91,8 +92,7 @@ if user_input:
             title = title[:50] + "..."
         st.session_state['thread_titles'][thread_id] = title
 
-    # Assistant streaming response
-    # Assistant streaming response
+
     with st.chat_message("assistant"):
         ai_response = ""
         placeholder = st.empty()  # create a placeholder for streaming text

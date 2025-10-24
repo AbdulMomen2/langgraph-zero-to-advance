@@ -1,0 +1,892 @@
+# 30-Day Python Coding Challenge for AI Engineers
+
+**Daily commitment:** 20 LeetCode/HackerRank problems + 1 hour coding practice  
+**Total time:** ~2-3 hours per day  
+**Goal:** Build muscle memory for functions, classes, async, data structures
+
+---
+
+## Week 1: Functions & Data Structures (Days 1-7)
+
+### Day 1: Functions Basics
+**Focus:** Writing simple functions, return values, parameters
+
+1. Add Two Numbers
+2. Reverse String
+3. Palindrome Number
+4. Fizz Buzz
+5. Count Vowels
+6. Sum of Array
+7. Find Maximum
+8. Remove Duplicates from Array
+9. Rotate Array
+10. Missing Number
+11. Two Sum
+12. Contains Duplicate
+13. Valid Palindrome
+14. Majority Element
+15. Best Time to Buy Stock
+16. Product of Array Except Self
+17. Rotate Image
+18. Set Matrix Zeroes
+19. First Unique Character
+20. Ransom Note
+
+**Daily project:** Write a function that takes a list of dictionaries (messages) and filters them by role. Store results in a file.
+
+---
+
+### Day 2: Lists & Loops
+**Focus:** Iteration, filtering, transformations
+
+1. Remove Element
+2. Remove Duplicates from Sorted Array
+3. Move Zeroes
+4. Merge Sorted Array
+5. Valid Parentheses
+6. Merge Two Sorted Lists
+7. Sort Colors
+8. Intersection of Two Arrays
+9. Happy Number
+10. Isomorphic Strings
+11. Word Pattern
+12. Group Anagrams
+13. Valid Anagram
+14. Majority Element II
+15. Rotate Array
+16. Plus One
+17. Duplicate Zeros
+18. Sort Array By Parity
+19. Squares of a Sorted Array
+20. Relative Sort Array
+
+**Daily project:** Filter a list of agent responses based on keywords, return sorted results.
+
+---
+
+### Day 3: Dictionaries & String Manipulation
+**Focus:** Hashing, string operations, key-value storage
+
+1. Valid Anagram
+2. Group Anagrams
+3. Two Sum
+4. Contains Duplicate
+5. Valid Parentheses
+6. Majority Element
+7. First Unique Character
+8. Ransom Note
+9. Isomorphic Strings
+10. Word Pattern
+11. Happy Number
+12. Intersection of Two Arrays
+13. Happy Number
+14. Majority Element II
+15. Counting Duplicates
+16. Count Character Frequency
+17. Longest Substring Without Repeating
+18. Character Replacement
+19. Minimum Window Substring
+20. Permutation in String
+
+**Daily project:** Build a dictionary-based system to store tool definitions (name, description, params). Query it by tool name.
+
+---
+
+### Day 4: Lists of Dictionaries (Message-like structures)
+**Focus:** Working with complex data structures (like LLM conversation histories)
+
+1. Merge Intervals
+2. Insert Interval
+3. Meeting Rooms
+4. Meeting Rooms II
+5. Non-overlapping Intervals
+6. Remove K Digits
+7. Flatten Nested Lists
+8. Max Depth of Nested List
+9. Nested List Weight Sum
+10. Nested List Weight Sum II
+11. Design HashSet
+12. Design HashMap
+13. Two Sum
+14. Contains Duplicate
+15. Valid Anagram
+16. Group Anagrams
+17. Top K Frequent Elements
+18. Find All Anagrams
+19. Majority Element
+20. Word Frequency Analysis
+
+**Daily project:** Build a message history structure (list of dicts). Add messages, retrieve by role, display conversation.
+
+---
+
+### Day 5: Nested Data & JSON
+**Focus:** Working with nested structures, JSON parsing
+
+1. Flatten Dictionary
+2. Nested Dictionary Search
+3. Deep Copy
+4. Serialize Deserialize
+5. Number of Islands
+6. Max Area of Island
+7. Surrounded Regions
+8. Clone Graph
+9. Course Schedule
+10. Course Schedule II
+11. Alien Dictionary
+12. Sequence Reconstruction
+13. Network Delay Time
+14. Reconstruct Itinerary
+15. Minimum Height Trees
+16. Word Ladder
+17. Word Ladder II
+18. Valid Tree
+19. Graph Valid Tree
+20. Number of Connected Components
+
+**Daily project:** Parse a JSON API response (mock LLM response), extract relevant fields, store in structured format.
+
+---
+
+### Day 6: Error Handling & Edge Cases
+**Focus:** Try/except, handling None, validation
+
+1. Valid Number
+2. Reverse Integer
+3. String to Integer
+4. Valid Sudoku
+5. Set Matrix Zeroes
+6. Sort Colors
+7. Majority Element
+8. Majority Element II
+9. Find the Celebrity
+10. Can Place Flowers
+11. Teemo Attacking
+12. Minimum Index Sum of Two Lists
+13. Relative Ranks
+14. Base 7
+15. Perfect Squares
+16. Ugly Number
+17. Ugly Number II
+18. Super Ugly Number
+19. Is Subsequence
+20. Valid Palindrome II
+
+**Daily project:** Write functions that handle edge cases—empty lists, None values, invalid inputs. Add error handling.
+
+---
+
+### Day 7: Review & Integration
+**Focus:** Combining concepts from Week 1
+
+1. Two Sum
+2. Contains Duplicate
+3. Valid Anagram
+4. Group Anagrams
+5. Top K Frequent Elements
+6. Product of Array Except Self
+7. Majority Element
+8. Rotate Image
+9. Set Matrix Zeroes
+10. Spiral Matrix
+11. Median of Two Sorted Arrays
+12. Trapping Rain Water
+13. Rotate Array
+14. Remove Duplicates from Sorted Array
+15. Move Zeroes
+16. Merge Sorted Array
+17. Best Time to Buy Stock
+18. Best Time to Buy Stock II
+19. Best Time to Buy Stock III
+20. Best Time to Buy Stock IV
+
+**Daily project:** Build a mini agent state manager using functions, dicts, lists, and error handling. Save/load state.
+
+---
+
+## Week 2: Classes & OOP (Days 8-14)
+
+### Day 8: Basic Classes
+**Focus:** `__init__`, methods, instance variables
+
+1. Design HashSet
+2. Design HashMap
+3. Min Stack
+4. Implement Queue using Stacks
+5. Implement Stack using Queues
+6. Binary Search Tree Iterator
+7. Flatten Nested List Iterator
+8. Zigzag Iterator
+9. Peeking Iterator
+10. Design Linked List
+11. LRU Cache
+12. Time Based Key-Value Store
+13. Design File System
+14. Design In-Memory File System
+15. Design Search Autocomplete System
+16. Design Tic-Tac-Toe
+17. Design Snake Game
+18. Design Parking Lot
+19. Design Elevator System
+20. Design Log Storage System
+
+**Daily project:** Create a `Tool` class with name, description, execute method. Create 3 tool instances.
+
+---
+
+### Day 9: Class Methods & Properties
+**Focus:** Methods, return self, chaining
+
+1. Flatten Nested Lists
+2. Design Twitter
+3. Design Hit Counter
+4. Design Search Autocomplete
+5. Design File System
+6. Design Snake Game
+7. Design Tic-Tac-Toe
+8. Design Expression Add Operators
+9. Design LFU Cache
+10. Design Skiplist
+11. Design Underground System
+12. Design Movie Rental System
+13. Design Authenticator
+14. Design A Leaderboard
+15. Design A Number Container System
+16. Design A Food Rating System
+17. Design A Stock Spanner
+18. Design An ATM Machine
+19. Design A Spreadsheet
+20. Design A Browser History
+
+**Daily project:** Create an `Agent` class with methods: add_message(), get_context(), execute_tool(). Practice method chaining.
+
+---
+
+### Day 10: Inheritance & Polymorphism
+**Focus:** Class hierarchies, method override
+
+1. Binary Tree Maximum Path Sum
+2. Binary Tree Vertical Order Traversal
+3. Verify Preorder Serialization of a Binary Tree
+4. Serialize and Deserialize Binary Tree
+5. Serialize and Deserialize N-ary Tree
+6. Design Compressed String Iterator
+7. Mini Parser
+8. Nested List Weight Sum
+9. Nested List Weight Sum II
+10. Max Depth of N-ary Tree
+11. N-ary Tree Level Order Traversal
+12. N-ary Tree Preorder Traversal
+13. N-ary Tree Postorder Traversal
+14. Employee Importance
+15. Most Frequent IDs
+16. Course Schedule
+17. Course Schedule II
+18. Course Schedule III
+19. Alien Dictionary
+20. Sequence Reconstruction
+
+**Daily project:** Create a base `BaseTool` class and inherit from it to create specific tools (SearchTool, CalculatorTool).
+
+---
+
+### Day 11: Class with State Management
+**Focus:** Complex state, initialization
+
+1. Design LRU Cache
+2. Design LFU Cache
+3. Time Based Key-Value Store
+4. Design Leaderboard
+5. Design A Number Container System
+6. Design A Food Rating System
+7. Design Underground System
+8. Design Hit Counter
+9. Design File System
+10. Design In-Memory File System
+11. Design Parking Lot
+12. Design Elevator System
+13. Design Tic-Tac-Toe
+14. Design Snake Game
+15. Design ATM Machine
+16. Design A Text Editor
+17. Design A Spreadsheet
+18. Design Browser History
+19. Design Movie Rental System
+20. Design Authentication Manager
+
+**Daily project:** Build an `AgentMemory` class that stores conversation history, retrieves by role, and has max size limit.
+
+---
+
+### Day 12: Decorators Introduction
+**Focus:** Understanding decorators, simple examples
+
+1. Validate Binary Search Tree
+2. Lowest Common Ancestor of a Binary Search Tree
+3. Lowest Common Ancestor of a Binary Tree
+4. Path Sum
+5. Path Sum II
+6. Path Sum III
+7. Binary Tree Paths
+8. Sum Root to Leaf Numbers
+9. House Robber
+10. House Robber II
+11. House Robber III
+12. Climbing Stairs
+13. Min Cost Climbing Stairs
+14. Unique Paths
+15. Unique Paths II
+16. Jump Game
+17. Jump Game II
+18. Coin Change
+19. Coin Change II
+20. Combination Sum
+
+**Daily project:** Create a simple decorator that logs function calls (time, args, return value).
+
+---
+
+### Day 13: Advanced OOP Patterns
+**Focus:** Static methods, class methods, property decorators
+
+1. Range Sum Query Immutable
+2. Range Sum Query 2D Immutable
+3. Range Sum Query Mutable
+4. Majority Element
+5. Majority Element II
+6. Find the Celebrity
+7. Single Number
+8. Single Number II
+9. Single Number III
+10. Missing Number
+11. Find the Duplicate Number
+12. Find All Duplicates in an Array
+13. Set Mismatch
+14. Find All Numbers Disappeared in an Array
+15. First Missing Positive
+16. Largest Rectangle in Histogram
+17. Maximal Rectangle
+18. Search a 2D Matrix
+19. Search a 2D Matrix II
+20. Median of Two Sorted Arrays
+
+**Daily project:** Add `@staticmethod` for utility functions in Agent class. Add `@property` for read-only attributes.
+
+---
+
+### Day 14: Integration Week 2
+**Focus:** Combining OOP concepts
+
+1. Implement Trie
+2. Add and Search Word
+3. Word Search II
+4. Design Word Search
+5. Design Trie with Insert, Search, and StartsWith
+6. Replace Words
+7. Implement Magic Dictionary
+8. Design In-Memory File System
+9. Design Snake Game
+10. Design Tic-Tac-Toe
+11. Design Parking Lot
+12. Design Movie Rental System
+13. Design LRU Cache
+14. Design LFU Cache
+15. Design Authenticator
+16. Design Leaderboard
+17. Design Underground System
+18. Design Browser History
+19. Design Text Editor
+20. Design Spreadsheet
+
+**Daily project:** Refactor all previous projects into a cohesive `AIAgent` system with Tool classes, Memory class, and state management.
+
+---
+
+## Week 3: Async & Advanced Patterns (Days 15-21)
+
+### Day 15: Async/Await Basics
+**Focus:** Understanding async, simple async functions
+
+1. Reverse Linked List
+2. Reverse Linked List II
+3. Remove Nth Node From End of List
+4. Reorder List
+5. Linked List Cycle
+6. Linked List Cycle II
+7. Intersection of Two Linked Lists
+8. Copy List with Random Pointer
+9. Merge Two Sorted Lists
+10. Merge K Sorted Lists
+11. Add Two Numbers
+12. Add Two Numbers II
+13. Palindrome Linked List
+14. Split Linked List in Parts
+15. Rotate List
+16. Odd Even Linked List
+17. Next Greater Node In Linked List
+18. Linked List Random Node
+19. Design Linked List
+20. Delete the Middle Node of a Linked List
+
+**Daily project:** Create an async function that simulates an API call. Use asyncio.sleep() to simulate delay.
+
+---
+
+### Day 16: Async with Multiple Operations
+**Focus:** asyncio.gather(), concurrent execution
+
+1. Binary Tree Inorder Traversal
+2. Binary Tree Preorder Traversal
+3. Binary Tree Postorder Traversal
+4. Level Order Traversal (BFS)
+5. Zigzag Level Order Traversal
+6. Vertical Order Traversal
+7. Right View of Binary Tree
+8. Left View of Binary Tree
+9. Bottom View of Binary Tree
+10. Top View of Binary Tree
+11. Binary Tree Maximum Path Sum
+12. Binary Tree Path Sum
+13. Flatten Binary Tree to Linked List
+14. Construct Binary Tree from Preorder and Inorder
+15. Construct Binary Tree from Inorder and Postorder
+16. Serialize and Deserialize Binary Tree
+17. Populating Next Right Pointers
+18. Populating Next Right Pointers II
+19. All Nodes Distance K in Binary Tree
+20. Lowest Common Ancestor of Binary Tree
+
+**Daily project:** Create async functions for multiple API calls. Use asyncio.gather() to run them concurrently.
+
+---
+
+### Day 17: Async Error Handling
+**Focus:** Try/except with async, timeout handling
+
+1. Invert Binary Tree
+2. Symmetric Tree
+3. Same Tree
+4. Balanced Binary Tree
+5. Height-Balanced Binary Search Tree
+6. Binary Search Tree Iterator
+7. Validate Binary Search Tree
+8. Kth Smallest Element in BST
+9. Lowest Common Ancestor of BST
+10. Lowest Common Ancestor of Binary Tree
+11. Delete Node in BST
+12. Trim a Binary Search Tree
+13. Convert Sorted Array to BST
+14. Convert Sorted List to BST
+15. Recover Binary Search Tree
+16. Count Complete Tree Nodes
+17. Sum of Left Leaves
+18. Binary Tree Upside Down
+19. Average of Levels in Binary Tree
+20. Find Bottom Left Tree Value
+
+**Daily project:** Add error handling to async functions. Catch connection errors, timeouts, invalid responses.
+
+---
+
+### Day 18: Async with Real Patterns
+**Focus:** Producer-consumer, queues
+
+1. Word Break
+2. Word Break II
+3. Word Ladder
+4. Word Ladder II
+5. Longest Substring Without Repeating
+6. Substring with Concatenation of All Words
+7. Minimum Window Substring
+8. Permutation in String
+9. Find All Anagrams
+10. Palindrome Partitions
+11. Restore IP Addresses
+12. N-Queens
+13. N-Queens II
+14. Sudoku Solver
+15. Generate Parentheses
+16. Combination Sum
+17. Combination Sum II
+18. Combination Sum III
+19. Permutations
+20. Permutations II
+
+**Daily project:** Build an async queue system. Push agent tasks, process them concurrently.
+
+---
+
+### Day 19: Decorators & Async
+**Focus:** Async decorators, timing decorators
+
+1. Letter Combinations of a Phone Number
+2. Binary Watch
+3. Gray Code
+4. Subsets
+5. Subsets II
+6. Partition Equal Subset Sum
+7. Coin Change
+8. Coin Change II
+9. Combination Sum IV
+10. House Robber
+11. House Robber II
+12. House Robber III
+13. Decode Ways
+14. Unique Paths
+15. Unique Paths II
+16. Minimum Path Sum
+17. Jump Game
+18. Jump Game II
+19. Jump Game III
+20. Jump Game IV
+
+**Daily project:** Create a decorator that times async functions. Logs execution time for debugging.
+
+---
+
+### Day 20: Integration & Complex Async
+**Focus:** Real-world async patterns
+
+1. Longest Increasing Subsequence
+2. Longest Common Subsequence
+3. Edit Distance
+4. Regular Expression Matching
+5. Wildcard Matching
+6. Interleaving String
+7. Maximum Product Subarray
+8. Burst Balloons
+9. Distinct Subsequences
+10. Distinct Subsequences II
+11. Russian Doll Envelopes
+12. Count Different Palindromic Subsequences
+13. Can I Win
+14. Predict the Winner
+15. Stone Game
+16. Divisor Game
+17. Number of Dice Rolls with Target Sum
+18. Target Sum
+19. Ones and Zeroes
+20. Concatenated Words
+
+**Daily project:** Build an async agent that calls multiple tools concurrently, handles errors, returns aggregated results.
+
+---
+
+### Day 21: Week 3 Review
+**Focus:** All Week 3 concepts combined
+
+1. Merge Sorted Array
+2. Merge Sorted List
+3. Merge Intervals
+4. Insert Interval
+5. Non-overlapping Intervals
+6. Employee Free Time
+7. Meeting Rooms
+8. Meeting Rooms II
+9. Minimum Interval to Include Each Query
+10. Partition Equal Subset Sum
+11. Target Sum
+12. Ones and Zeroes
+13. Coin Change
+14. Coin Change II
+15. Combination Sum IV
+16. Decode Ways
+17. House Robber
+18. House Robber II
+19. Climbing Stairs
+20. Min Cost Climbing Stairs
+
+**Daily project:** Combine everything: Agent class, async tools, message history, error handling, decorators. Full working system.
+
+---
+
+## Week 4: Integration & FastAPI Prep (Days 22-30)
+
+### Day 22: Type Hints & Validation
+**Focus:** Type annotations, Optional, List, Dict
+
+1. Spiral Matrix
+2. Spiral Matrix II
+3. Diagonal Traverse
+4. Rotate Image
+5. Set Matrix Zeroes
+6. Game of Life
+7. Search in Rotated Sorted Array
+8. Search in Rotated Sorted Array II
+9. Find First and Last Position of Element
+10. Search Insert Position
+11. Peak Index in a Mountain Array
+12. Find Peak Element
+13. Find Minimum in Rotated Sorted Array
+14. Find Minimum in Rotated Sorted Array II
+15. Median of Two Sorted Arrays
+16. K Closest Points to Origin
+17. Top K Frequent Elements
+18. Top K Frequent Words
+19. K Largest Elements
+20. K Smallest Elements
+
+**Daily project:** Add full type hints to Agent, Tool, Memory classes. Use Optional, List, Dict.
+
+---
+
+### Day 23: Real-world Data Structures
+**Focus:** Building practical structures for agents
+
+1. Validate Binary Search Tree
+2. Binary Search Tree Iterator
+3. Delete Node in BST
+4. Trim Binary Search Tree
+5. Convert Sorted Array to BST
+6. Inorder Successor in BST
+7. Inorder Successor II in BST
+8. Implement Trie
+9. Implement Trie II (with count)
+10. Add and Search Word
+11. Word Search II
+12. Design Word Search
+13. Design Autocomplete System
+14. Replace Words
+15. Implement Magic Dictionary
+16. Valid Word Abbreviation
+17. Valid Word Square
+18. Word Squares
+19. Minimum Unique Word Abbreviation
+20. Alien Dictionary
+
+**Daily project:** Build a Tool Registry (dict-based structure) that stores, searches, and retrieves tools efficiently.
+
+---
+
+### Day 24: File I/O & Persistence
+**Focus:** Reading/writing, JSON, serialization
+
+1. Read N Characters Given Read4
+2. Read N Characters Given Read4 II
+3. Logger Rate Limiter
+4. Design Hit Counter
+5. Design Parking Lot
+6. Design Movie Rental System
+7. Design LRU Cache
+8. Design LFU Cache
+9. Design Underground System
+10. Design Browser History
+11. Design In-Memory File System
+12. Design File System
+13. Design Authenticator
+14. Design Leaderboard
+15. Design A Number Container System
+16. Design A Food Rating System
+17. Design Text Editor
+18. Design Spreadsheet
+19. Design ATM Machine
+20. Design Restaurant Rating System
+
+**Daily project:** Implement save/load for Agent state. Use JSON. Add file error handling.
+
+---
+
+### Day 25: String Processing & APIs
+**Focus:** String manipulation, JSON parsing, simulating API responses
+
+1. Isomorphic Strings
+2. Word Pattern
+3. Ransom Note
+4. Group Anagrams
+5. Valid Anagram
+6. First Unique Character
+7. Character Replacement
+8. Minimum Window Substring
+9. Permutation in String
+10. Find All Anagrams
+11. Longest Substring Without Repeating
+12. Longest Substring with At Most Two Distinct Characters
+13. Longest Substring with K Distinct Characters
+14. Valid Parentheses
+15. Asteroid Collision
+16. Evaluate Reverse Polish Notation
+17. Basic Calculator
+18. Basic Calculator II
+19. Calculate Largest Values By Marked Index
+20. Parse Lisp Expression
+
+**Daily project:** Parse mock LLM API responses (JSON strings). Extract messages, tools, parameters.
+
+---
+
+### Day 26: HTTP & Request Simulation
+**Focus:** Simulating requests, handling responses
+
+1. Valid Parentheses
+2. Min Stack
+3. Evaluate Reverse Polish Notation
+4. Basic Calculator
+5. Basic Calculator II
+6. Trapping Rain Water
+7. Largest Rectangle in Histogram
+8. Maximal Rectangle
+9. Implement Queue using Stacks
+10. Implement Stack using Queues
+11. Moving Average from Data Stream
+12. Performance of School by Passing Percentage
+13. Summary Ranges
+14. Majority Element
+15. Majority Element II
+16. Single Number
+17. Single Number II
+18. Single Number III
+19. Missing Number
+20. Find the Duplicate Number
+
+**Daily project:** Create mock functions that simulate API calls (httpx, requests). Return JSON responses.
+
+---
+
+### Day 27: Connecting It All
+**Focus:** Full integration of concepts
+
+1. Network Delay Time
+2. Dijkstra's Algorithm
+3. Bellman-Ford Algorithm
+4. Floyd-Warshall Algorithm
+5. Cheapest Flights Within K Stops
+6. Swim in Rising Water
+7. Minimum Cost to Reach Destination
+8. Path with Maximum Probability
+9. Network Delay Time
+10. Course Schedule
+11. Course Schedule II
+12. Course Schedule III
+13. Alien Dictionary
+14. Sequence Reconstruction
+15. Graph Valid Tree
+16. Number of Connected Components
+17. Redundant Connection
+18. Redundant Connection II
+19. Valid Tree
+20. Most Stones Removed with Same Row or Column
+
+**Daily project:** Build a complete agent system with: classes, async, file I/O, API simulation, error handling.
+
+---
+
+### Day 28: FastAPI Patterns
+**Focus:** Understanding decorators for endpoints
+
+1. Two Sum
+2. Three Sum
+3. Three Sum Closest
+4. Four Sum
+5. Minimum Subarray
+6. Trapping Rain Water
+7. Container With Most Water
+8. Longest Substring
+9. Sliding Window Maximum
+10. Sliding Window Median
+11. Permutation in String
+12. Minimum Window Substring
+13. Substring with Concatenation
+14. Find All Anagrams
+15. Longest Repeating Character Replacement
+16. Maximum Fruits into Baskets
+17. Longest Substring with At Most K Distinct
+18. Minimum Window Substring (revisit)
+19. Smallest Range Covering Elements
+20. Minimum Size Subarray Sum
+
+**Daily project:** Learn FastAPI decorator syntax. Understand @app.get(), @app.post() patterns.
+
+---
+
+### Day 29: Design Patterns for Agents
+**Focus:** Advanced patterns used in production
+
+1. Design Graycode
+2. Design Permutation
+3. Design Shuffle an Array
+4. Design Number Guessing Game
+5. Design Rock Paper Scissors
+6. Design Toss Game
+7. Design Card Game
+8. Design Traffic Light System
+9. Design Snake and Ladder
+10. Design Blackjack
+11. Design Elevator System
+12. Design Parking Lot
+13. Design Movie Rental System
+14. Design Leaderboard
+15. Design Authentication
+16. Design Logger
+17. Design Cache System
+18. Design Search System
+19. Design Recommendation System
+20. Design Feed System
+
+**Daily project:** Implement design patterns for agent tool selection, error recovery, retry logic.
+
+---
+
+### Day 30: Final Integration & Project
+**Focus:** Building a complete, production-ready mini agent
+
+1. Two Sum
+2. Merge Two Sorted Lists
+3. Linked List Cycle
+4. Majority Element
+5. Binary Search
+6. Valid Palindrome
+7. Contains Duplicate
+8. Valid Anagram
+9. Group Anagrams
+10. Top K Frequent Elements
+11. Product of Array Except Self
+12. Encode and Decode Strings
+13. Longest Consecutive
+14. Valid Sudoku
+15. Rotate Image
+16. Set Matrix Zeroes
+17. Spiral Matrix
+18. Median of Two Sorted Arrays
+19. Serialize and Deserialize Binary Tree
+20. Lowest Common Ancestor
+
+**Final Project:** Build a complete, working AI agent system that:
+- Has Agent class with state management
+- Multiple Tool classes (async)
+- Message history with file persistence
+- Error handling and logging
+- Type hints throughout
+- Ready to integrate with FastAPI
+
+---
+
+## Tips for Success
+
+**Daily routine:**
+- 20 problems: ~1.5 hours (spend 4-5 min per problem)
+- Daily project: ~1-1.5 hours (coding + debugging)
+- Total: 2.5-3 hours per day
+
+**Strategy:**
+- Read the problem, think for 1 min
+- Write solution (don't copy)
+- Test edge cases
+- Move on (don't get stuck >10 min)
+
+**When stuck:**
+- Check hints section
+- Look at similar problems you solved
+- Come back later
+
+**Track progress:**
+- Mark problems as done
+- Keep a GitHub repo with your daily projects
+- This becomes your portfolio
+
+**After Week 4:**
+- You'll have 600+ problems done
+- Solid understanding of core Python
+- Real projects to show employers
+- Ready for FastAPI + agent projects
+
+Good luck! 🚀
